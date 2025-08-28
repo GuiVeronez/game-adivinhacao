@@ -18,7 +18,7 @@
 </head>
 </head>
 
-<body style="background-color: #303F9F">
+<body style="background-color: #575757">
     <div id="app" data-dificuldade="{{ $dificuldade }}"></div>
     <div id="image" data-image="{{ $tecnologia }}"></div>
 

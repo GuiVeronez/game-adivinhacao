@@ -11,7 +11,7 @@
     @vite("resources/js/index/index.js")
 </head>
 
-<body style="background-color: #303F9F">
+<body style="background-color: #575757">
     <div class="terminal">
         <div class="terminal-line">
             <span>root</span>@<span>game</span>:

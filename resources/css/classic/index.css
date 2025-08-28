@@ -52,7 +52,7 @@
 }
 
 .btn-tech {
-    background: linear-gradient(90deg, #00f2ff, #008cff);
+    background: linear-gradient(90deg, #00f2ff, gray);
     color: #fff;
     border: 2px solid #00f2ff;
     border-radius: 12px;
@@ -66,7 +66,7 @@
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 10px #00f2ff, 0 0 20px #008cff inset;
+    box-shadow: 0 0 10px #00f2ff, 0 0 20px gray inset;
   }
 
   .btn-tech::before {
@@ -79,7 +79,7 @@
     background: conic-gradient(
       from 0deg,
       transparent,
-      rgba(0, 242, 255, 0.6),
+      gray(0, 242, 255, 0.6),
       transparent 30%
     );
     animation: rotate 4s linear infinite;
@@ -87,7 +87,7 @@
 
   .btn-tech:hover {
     background: linear-gradient(90deg, #008cff, #00f2ff);
-    box-shadow: 0 0 15px #00f2ff, 0 0 30px #008cff;
+    box-shadow: 0 0 15px #00f2ff, 0 0 30px gray;
     transform: scale(1.05);
   }
 
